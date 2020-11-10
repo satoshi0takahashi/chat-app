@@ -7,16 +7,7 @@
     </div>
 
     <div class="main_center">
-    <div class="name_date">
-        <div class="user_name0">Tom</div>
-        <div class="date">20203/31(Wed) 12:43:40</div>
-        </div>
-     <div class="text">おはよう</div>
-         <div class="name_date">
-        <div class="user_name0">Tom</div>
-        <div class="date">20203/31(Wed) 12:47:30</div>
-        </div>
-     <div class="text">こんばんは</div>
+    <%= render partial: 'message', collection: @messages %>
      </div>
 
     <div class="main_bottom">
